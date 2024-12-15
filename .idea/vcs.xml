@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="VcsDirectoryMappings">
+<<<<<<< HEAD
+=======
+    <mapping directory="$PROJECT_DIR$" vcs="Git" />
+>>>>>>> 4dde435 (first commit)
+    <mapping directory="$PROJECT_DIR$/back-end" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/front-end" vcs="Git" />
+  </component>
+</project>

@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+<<<<<<< HEAD
+    <list default="true" id="2c0eefd9-0b40-47bc-934d-2d427a276946" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/back-end/.gitattributes" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/back-end/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/back-end/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/back-end/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/back-end/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/back-end/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/back-end/src/main/java/com/train/application_crud/ApplicationCrudApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/back-end/src/main/java/com/train/application_crud/controller/AuthController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/back-end/src/main/java/com/train/application_crud/controller/EmployeController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/back-end/src/main/java/com/train/application_crud/controller/StockController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/back-end/src/main/java/com/train/application_crud/controller/TestController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/back-end/src/main/java/com/train/application_crud/entity/ERole.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/back-end/src/main/java/com/train/application_crud/entity/Employe.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/back-end/src/main/java/com/train/application_crud/entity/Role.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/back-end/src/main/java/com/train/application_crud/entity/Stock.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/back-end/src/main/java/com/train/application_crud/entity/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/back-end/src/main/java/com/train/application_crud/payload/request/LoginRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/back-end/src/main/java/com/train/application_crud/payload/request/SignupRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/back-end/src/main/java/com/train/application_crud/payload/response/JwtResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/back-end/src/main/java/com/train/application_crud/payload/response/MessageResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/back-end/src/main/java/com/train/application_crud/repository/EmployeRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/back-end/src/main/java/com/train/application_crud/repository/RoleRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/back-end/src/main/java/com/train/application_crud/repository/StockRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/back-end/src/main/java/com/train/application_crud/repository/UserRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/back-end/src/main/java/com/train/application_crud/security/WebSecurityConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/back-end/src/main/java/com/train/application_crud/security/jwt/AuthEntryPointJwt.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/back-end/src/main/java/com/train/application_crud/security/jwt/AuthTokenFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/back-end/src/main/java/com/train/application_crud/security/jwt/JwtUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/back-end/src/main/java/com/train/application_crud/security/services/UserDetailsImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/back-end/src/main/java/com/train/application_crud/security/services/UserDetailsServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/back-end/src/main/java/com/train/application_crud/service/EmployeNotFoundException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/back-end/src/main/java/com/train/application_crud/service/EmployeService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/back-end/src/main/java/com/train/application_crud/service/StockService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/back-end/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/back-end/src/test/java/com/train/application_crud/ApplicationCrudApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front-end/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front-end/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front-end/app.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front-end/composables/useEmployees.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front-end/composables/useStock.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front-end/nuxt.config.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front-end/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front-end/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front-end/pages/employes/index.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front-end/pages/index.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front-end/pages/stocks/index.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front-end/public/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front-end/public/robots.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front-end/server/tsconfig.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front-end/services/employeService.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front-end/services/stockService.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front-end/tsconfig.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front-end/utils/api.js" afterDir="false" />
+    </list>
+=======
+    <list default="true" id="2c0eefd9-0b40-47bc-934d-2d427a276946" name="Changes" comment="first commit" />
+>>>>>>> 4dde435 (first commit)
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+<<<<<<< HEAD
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/back-end" />
+=======
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+>>>>>>> 4dde435 (first commit)
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHomeTypeForPersistence" value="WRAPPER" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 7
+}</component>
+  <component name="ProjectId" id="2pOw9TvLKVdbnQTYfPPcJSFMuEw" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
+    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
+    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
+    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;Spring Boot.ApplicationCrudApplication.executor&quot;: &quot;Run&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.keymap&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;/Applications/IntelliJ IDEA.app/Contents/plugins/javascript-plugin/jsLanguageServicesImpl/external&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;,
+    &quot;vuejs.nuxt.types-notification-shown&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.train.application_crud.service" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/front-end/vue-project/src" />
+      <recent name="$PROJECT_DIR$/front-end/vue-project" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="ApplicationCrudApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="Application_crud" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.train.application_crud.ApplicationCrudApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9f38398b9061-39b83d9b5494-intellij.indexing.shared.core-IU-241.18034.62" />
+        <option value="bundled-js-predefined-1d06a55b98c1-0b3e54e931b4-JavaScript-IU-241.18034.62" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="2c0eefd9-0b40-47bc-934d-2d427a276946" name="Changes" comment="" />
+      <created>1732650277944</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1732650277944</updated>
+      <workItem from="1732650278919" duration="6530000" />
+      <workItem from="1732706733773" duration="20111000" />
+      <workItem from="1733417248707" duration="127000" />
+      <workItem from="1733423816684" duration="87000" />
+      <workItem from="1733426633229" duration="3862000" />
+      <workItem from="1733430865388" duration="84000" />
+      <workItem from="1733430952363" duration="2767000" />
+      <workItem from="1733611510638" duration="263000" />
+      <workItem from="1733612761785" duration="478000" />
+      <workItem from="1733614669725" duration="2169000" />
+<<<<<<< HEAD
+    </task>
+=======
+      <workItem from="1734287109084" duration="945000" />
+    </task>
+    <task id="LOCAL-00001" summary="first commit">
+      <option name="closed" value="true" />
+      <created>1734287163331</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1734287163331</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
+>>>>>>> 4dde435 (first commit)
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+<<<<<<< HEAD
+=======
+    <MESSAGE value="first commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="first commit" />
+>>>>>>> 4dde435 (first commit)
+  </component>
+</project>
